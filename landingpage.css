@@ -1,0 +1,278 @@
+body{
+  Font-Family: 'Playfair Display', Sans-Serif;
+Font-Size: 16px;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+#header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color:  transparent;
+}
+#footer{
+  background-color:  #2E302F;
+  color:  white;
+  bottom: 0;
+  height:  70px;
+  display:  table;
+
+}
+#footer p{
+  display: table-cell;
+  vertical-align:  middle;
+}
+
+.hero{
+  background-image: url("https://images.pexels.com/photos/268633/pexels-photo-268633.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  width:  100%;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  height:  700px;
+  margin:  0;
+  z-index:  100;
+}
+.blur{
+  margin:  0 auto;
+  position:  relative;
+  top:  32%;
+  height:  ;
+}
+h1{
+    color:  white !important;
+    text-shadow: 2px 2px 0px #000000;
+    background-color:  rgb(49,51,49, 0.9);
+    height:  auto;
+    Font-Family: 'PT Sans', Sans-Serif;
+Font-Size: 50px;
+}
+#topdest h3, #test{
+  Font-Family: 'PT Sans', Sans-Serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.lead{
+  color:  white;
+  text-shadow: 1px 1px 1px #000000;
+  height:  40px;
+    background-color:  rgb(49,51,49, 0.9);
+}
+nav{
+
+  width:  100%;
+}
+.contact{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.nav-link{
+    Font-Family: 'PT Sans', Sans-Serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 25px;
+  color: white;
+
+
+}
+.nav-link:hover{
+    color:  black;
+}
+.btn{
+  background-color:  #e9a63e;
+}
+.btn:hover{
+  background-color:  #e0b35f;
+}
+.topdest{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.dest-card{
+  width:  28%;
+  margin:  20px;
+  height:  300px;
+}
+
+.dest-img img{
+  height:  300px; 
+  width:  100%;
+}
+.dest-card:hover{
+  transform: scale(1.06);
+}
+.dest-header{
+  height:  50px;
+  display:  flex;
+   justify-content: center;
+  align-items: center;
+  background-color:  #363734;
+  color:  white;
+  text-transform: uppercase;
+  text-align:  center;
+}
+
+#form{
+  padding:  10px;
+  background-color:  rgb(49,51,49, 0.9);
+  height:  67%;
+  margin: 0 auto;
+  position:  relative;
+  top:  20%;
+}
+h4{
+  color:  white;
+  text-align:  center;
+  font-weight:  bold;
+  font-size:  28px;
+  margin-bottom: 0;
+  Font-Family: 'PT Sans', Sans-Serif;
+}
+
+.form-control{
+  border-radius:  0px;
+  width: 100%;
+}
+form .btn{
+  width:  100%;
+  border-radius:  0px;
+  height:  50px;
+  font-weight:  bold;
+  font-size:  20px;
+}
+#video-container{
+  background-image: url("https://wallpapercave.com/wp/wp6980736.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  padding: 40px;
+  color:  white;
+}
+iframe:hover{
+  transform: scale(1.06);
+}
+}
+#testimonial{
+  display: flex;
+}
+@media only screen and (max-width: 992px)
+{
+  body .hero{
+    height:  1000px;
+  }
+  #nav-bar{
+    margin-left: -35px;
+  }
+  #header .text-white{
+    text-align: center;
+  }
+  body h1{
+    height:  auto;
+    margin-top: -100px;
+  }
+  #form{
+    height:  500px;
+    width: 700px;
+    top: 13%;
+  }
+  .dest-img img{
+    height:  250px;
+  }
+  h3{
+    text-align: center;
+    Font-Family: 'PT Sans', Sans-Serif;
+  Font-Size: 28px;
+  }
+  iframe{
+    width:  100%;
+    align-content: center;
+  }
+  .dest-header{
+       height:  40px;
+  }
+  h4{
+   font-size: 20px; 
+  }
+
+}
+@media only screen and (max-width: 768px)
+{
+  body .hero{
+    height:  900px;
+  }
+  #form{
+    height:  450px;
+    width: 683px;
+    top: 13%;
+  }
+  .dest-card{
+    height: 300px;
+  }
+  .dest-img img{
+    height:  200px;
+  }
+  .dest-header{
+       height:  40px;
+  }
+  h4{
+   font-size: 20px; 
+  }
+}
+@media only screen and (max-width: 606px)
+{
+  #form{
+    height:  400px;
+    width: 517px;
+    top: 15%;
+  }
+  .topdest{
+    flex-direction: column;
+    align-items: center;
+}
+  .dest-card{
+    height: 300px;
+    width: 300px;
+  }
+  .dest-img img{
+    height:  270px;
+  }
+  .dest-header{
+       height:  40px;
+  }
+  h4{
+   font-size: 20px; 
+  }
+  #video-div{
+    margin-right: 0 !important;
+    width:  500px;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 541px)
+{
+  .lead{
+    height: auto;
+  }
+  #form{
+    height:  400px;
+    width: 452px;
+    top: 14%;
+  }
+}
+
+@media only screen and (max-width: 425px)
+{
+  #form{
+    width: 337px;
+  }
+  .d-flex{
+    align-items: center;
+    justify-content: center;
+  }
+}

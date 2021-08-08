@@ -1,0 +1,123 @@
+<html> 
+<head> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="landingpage.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700|Playfair+Display" rel="stylesheet">
+  </head>
+<!--HEADER-->
+<header id="header" class="p-3 text-white">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <nav id="nav-bar" class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <a href="#header" class="nav-link px-2 pt-3 fw-bold"><h3>Travel Agency</h3></a>
+        </nav>
+        <div class="text-end">
+          <p class="me-4 contact display-7"> CALL US: <b>(810) 506-9116</b></p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <body> 
+
+    <!--First Section: Hero-->
+
+    <div class="row container-xxl hero">
+      <div class="col-lg-6 blur">
+        <h1 id="main-heading" class="px-3 py-3 display-4 lh-1 mb-3">Find Your Perfect Adventure</h1>
+        <p class="px-4 py-1 lead">Your chance to get the perfect travel experience.</p> 
+      </div>
+      <form id="form" class="col-lg-4" action="https://www.freecodecamp.com/email-submit">
+       <div class="row mb-4">
+        <h4 class="py-5"> GET STARTED HERE!</h4>
+        <div class="col-sm-11 mx-auto">
+          <input type="text" class="form-control" id="name" placeholder="NAME">
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm-11 mx-auto">
+          <input type="number" class="form-control" id="number" placeholder="PHONE NUMBER">
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm-11 mx-auto">
+          <input id="email" type="email" class="form-control" name="email" placeholder="EMAIL">
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-sm-11 mx-auto">
+          <input type="submit" id="submit" action="https://www.freecodecamp.com/email-submit" class="btn form-control">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!--Second Section-->
+
+  <div id="topdest" class="container-xxl mb-5 py-3">
+    <h3 class="display-7 fw-bold mt-5" align="center">Top Destinations</h3>
+    <div class="topdest"> 
+      <div class="dest-card">
+        <div class="dest-img">
+          <img src="https://images.unsplash.com/photo-1509299349698-dd22323b5963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80">
+        </div>
+        <div class="dest-header">
+          <h4>Paris</h4>
+        </div>
+      </div>
+      <div class="dest-card">
+        <div class="dest-img">
+          <img src="https://images.unsplash.com/photo-1585046300142-77b42d691099?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80">
+        </div>
+        <div class="dest-header">
+          <h4>Rome</h4>
+        </div>
+      </div>
+      <div class="dest-card">
+        <div class="dest-img">
+          <img src="https://media.istockphoto.com/photos/aerial-view-of-kualoa-area-of-oahu-hawaii-picture-id938335974?b=1&k=6&m=938335974&s=170667a&w=0&h=WWz9ERLInXg9N5LT42H-V_qpzzGM6xrG865T-K0Zic4=">
+        </div>
+        <div class="dest-header">
+          <h4>Hawaii</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Third Section: Video-->
+
+  <div id="video-container" class="container-xxl mt-4">
+    <h3 class="display-7 fw-bold mt-5 me-2 pb-2" align="center">Bali and Indonesia Tour</h3>
+    <div class="row justify-content-center">
+      <div id="video-div" class="col-6 me-4">
+        <iframe id="video" width="570" height="315" src="https://www.youtube.com/embed/a1aCwrR_DNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!--Testimonials-->
+  <div class="container-xxl mt-4">
+    <h3 id="test" class="display-7 fw-bold mt-5 me-4 pb-2" align="center">Testimonials</h3>
+    <div id="testimonial" class="justify-content-center mx-auto px-5 me-3">
+      <div class="d-flex flex-row">
+        <div class="text-center p-3"><img width="40" height="60" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk1LjMzMyA5NS4zMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTMwLjUxMiw0My45MzljLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTgtMS4wMTljLTMuNTI3LDAtNi40NywwLjgwNi04Ljc1MiwxLjc5MyAgICBjMi4yLTguMDU0LDcuNDg1LTIxLjk1MSwxOC4wMTMtMjMuNTE2YzAuOTc1LTAuMTQ1LDEuNzc0LTAuODUsMi4wNC0xLjc5OWwyLjMwMS04LjIzYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1ICAgIHMtMS4wMzUtMS4wMDctMS43NS0xLjEwNWMtMC43NzctMC4xMDYtMS41NjktMC4xNi0yLjM1NC0wLjE2Yy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDMzLDMyLjA3NiAgICBjLTMuMSwxMS4wOC00LjAwOSwyNy43MzgsMy42MjcsMzguMjIzYzQuMjczLDUuODY3LDEwLjUwNyw5LDE4LjUyOSw5LjMxM2MwLjAzMywwLjAwMSwwLjA2NSwwLjAwMiwwLjA5OCwwLjAwMiAgICBjOS44OTgsMCwxOC42NzUtNi42NjYsMjEuMzQ1LTE2LjIwOWMxLjU5NS01LjcwNSwwLjg3NC0xMS42ODgtMi4wMzItMTYuODUxQzQwLjk3MSw0OS4zMDcsMzYuMjM2LDQ1LjU4NiwzMC41MTIsNDMuOTM5eiIgZmlsbD0iI2ZjZTRiNCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik05Mi40NzEsNTQuNDEzYy0yLjg3NS01LjEwNi03LjYxLTguODI3LTEzLjMzNC0xMC40NzRjLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTc5LTEuMDE5ICAgIGMtMy41MjcsMC02LjQ3MSwwLjgwNi04Ljc1MywxLjc5M2MyLjItOC4wNTQsNy40ODUtMjEuOTUxLDE4LjAxNC0yMy41MTZjMC45NzUtMC4xNDUsMS43NzMtMC44NSwyLjA0LTEuNzk5bDIuMzAxLTguMjMgICAgYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1Yy0wLjM5Ni0wLjYwNC0xLjAzNC0xLjAwNy0xLjc1LTEuMTA1Yy0wLjc3Ni0wLjEwNi0xLjU2OC0wLjE2LTIuMzU0LTAuMTYgICAgYy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDM0LDMyLjA3NmMtMy4wOTksMTEuMDgtNC4wMDgsMjcuNzM4LDMuNjI5LDM4LjIyNWM0LjI3Miw1Ljg2NiwxMC41MDcsOSwxOC41MjgsOS4zMTIgICAgYzAuMDMzLDAuMDAxLDAuMDY1LDAuMDAyLDAuMDk5LDAuMDAyYzkuODk3LDAsMTguNjc1LTYuNjY2LDIxLjM0NS0xNi4yMDlDOTYuMDk4LDY1LjU1OSw5NS4zNzYsNTkuNTc1LDkyLjQ3MSw1NC40MTN6IiBmaWxsPSIjZmNlNGI0IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" /><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="text-center p-3"><img width="40" height="60" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk1LjMzMyA5NS4zMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTMwLjUxMiw0My45MzljLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTgtMS4wMTljLTMuNTI3LDAtNi40NywwLjgwNi04Ljc1MiwxLjc5MyAgICBjMi4yLTguMDU0LDcuNDg1LTIxLjk1MSwxOC4wMTMtMjMuNTE2YzAuOTc1LTAuMTQ1LDEuNzc0LTAuODUsMi4wNC0xLjc5OWwyLjMwMS04LjIzYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1ICAgIHMtMS4wMzUtMS4wMDctMS43NS0xLjEwNWMtMC43NzctMC4xMDYtMS41NjktMC4xNi0yLjM1NC0wLjE2Yy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDMzLDMyLjA3NiAgICBjLTMuMSwxMS4wOC00LjAwOSwyNy43MzgsMy42MjcsMzguMjIzYzQuMjczLDUuODY3LDEwLjUwNyw5LDE4LjUyOSw5LjMxM2MwLjAzMywwLjAwMSwwLjA2NSwwLjAwMiwwLjA5OCwwLjAwMiAgICBjOS44OTgsMCwxOC42NzUtNi42NjYsMjEuMzQ1LTE2LjIwOWMxLjU5NS01LjcwNSwwLjg3NC0xMS42ODgtMi4wMzItMTYuODUxQzQwLjk3MSw0OS4zMDcsMzYuMjM2LDQ1LjU4NiwzMC41MTIsNDMuOTM5eiIgZmlsbD0iI2ZjZTRiNCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik05Mi40NzEsNTQuNDEzYy0yLjg3NS01LjEwNi03LjYxLTguODI3LTEzLjMzNC0xMC40NzRjLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTc5LTEuMDE5ICAgIGMtMy41MjcsMC02LjQ3MSwwLjgwNi04Ljc1MywxLjc5M2MyLjItOC4wNTQsNy40ODUtMjEuOTUxLDE4LjAxNC0yMy41MTZjMC45NzUtMC4xNDUsMS43NzMtMC44NSwyLjA0LTEuNzk5bDIuMzAxLTguMjMgICAgYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1Yy0wLjM5Ni0wLjYwNC0xLjAzNC0xLjAwNy0xLjc1LTEuMTA1Yy0wLjc3Ni0wLjEwNi0xLjU2OC0wLjE2LTIuMzU0LTAuMTYgICAgYy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDM0LDMyLjA3NmMtMy4wOTksMTEuMDgtNC4wMDgsMjcuNzM4LDMuNjI5LDM4LjIyNWM0LjI3Miw1Ljg2NiwxMC41MDcsOSwxOC41MjgsOS4zMTIgICAgYzAuMDMzLDAuMDAxLDAuMDY1LDAuMDAyLDAuMDk5LDAuMDAyYzkuODk3LDAsMTguNjc1LTYuNjY2LDIxLjM0NS0xNi4yMDlDOTYuMDk4LDY1LjU1OSw5NS4zNzYsNTkuNTc1LDkyLjQ3MSw1NC40MTN6IiBmaWxsPSIjZmNlNGI0IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" /><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="text-center p-3">
+          <img width="40" height="60" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk1LjMzMyA5NS4zMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTMwLjUxMiw0My45MzljLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTgtMS4wMTljLTMuNTI3LDAtNi40NywwLjgwNi04Ljc1MiwxLjc5MyAgICBjMi4yLTguMDU0LDcuNDg1LTIxLjk1MSwxOC4wMTMtMjMuNTE2YzAuOTc1LTAuMTQ1LDEuNzc0LTAuODUsMi4wNC0xLjc5OWwyLjMwMS04LjIzYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1ICAgIHMtMS4wMzUtMS4wMDctMS43NS0xLjEwNWMtMC43NzctMC4xMDYtMS41NjktMC4xNi0yLjM1NC0wLjE2Yy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDMzLDMyLjA3NiAgICBjLTMuMSwxMS4wOC00LjAwOSwyNy43MzgsMy42MjcsMzguMjIzYzQuMjczLDUuODY3LDEwLjUwNyw5LDE4LjUyOSw5LjMxM2MwLjAzMywwLjAwMSwwLjA2NSwwLjAwMiwwLjA5OCwwLjAwMiAgICBjOS44OTgsMCwxOC42NzUtNi42NjYsMjEuMzQ1LTE2LjIwOWMxLjU5NS01LjcwNSwwLjg3NC0xMS42ODgtMi4wMzItMTYuODUxQzQwLjk3MSw0OS4zMDcsMzYuMjM2LDQ1LjU4NiwzMC41MTIsNDMuOTM5eiIgZmlsbD0iI2ZjZTRiNCIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik05Mi40NzEsNTQuNDEzYy0yLjg3NS01LjEwNi03LjYxLTguODI3LTEzLjMzNC0xMC40NzRjLTIuMzQ4LTAuNjc2LTQuNjk2LTEuMDE5LTYuOTc5LTEuMDE5ICAgIGMtMy41MjcsMC02LjQ3MSwwLjgwNi04Ljc1MywxLjc5M2MyLjItOC4wNTQsNy40ODUtMjEuOTUxLDE4LjAxNC0yMy41MTZjMC45NzUtMC4xNDUsMS43NzMtMC44NSwyLjA0LTEuNzk5bDIuMzAxLTguMjMgICAgYzAuMTk0LTAuNjk2LDAuMDc5LTEuNDQxLTAuMzE4LTIuMDQ1Yy0wLjM5Ni0wLjYwNC0xLjAzNC0xLjAwNy0xLjc1LTEuMTA1Yy0wLjc3Ni0wLjEwNi0xLjU2OC0wLjE2LTIuMzU0LTAuMTYgICAgYy0xMi42MzcsMC0yNS4xNTIsMTMuMTktMzAuNDM0LDMyLjA3NmMtMy4wOTksMTEuMDgtNC4wMDgsMjcuNzM4LDMuNjI5LDM4LjIyNWM0LjI3Miw1Ljg2NiwxMC41MDcsOSwxOC41MjgsOS4zMTIgICAgYzAuMDMzLDAuMDAxLDAuMDY1LDAuMDAyLDAuMDk5LDAuMDAyYzkuODk3LDAsMTguNjc1LTYuNjY2LDIxLjM0NS0xNi4yMDlDOTYuMDk4LDY1LjU1OSw5NS4zNzYsNTkuNTc1LDkyLjQ3MSw1NC40MTN6IiBmaWxsPSIjZmNlNGI0IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" /><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <div id="footer" class="text-center container-xxl mt-4">
+    <p>Copyright @Fatima Saeed Khan. All rights reserved. </p>
+  </div>
+
+</body>
+</html>
